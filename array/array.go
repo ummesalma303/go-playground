@@ -13,7 +13,7 @@ func main() {
     // string array
     b := [5]string{"Penn", "Teller"}
     fmt.Println(b)
-    // slice array
+    // slice
     letters := []string{"a", "b", "c", "d"}
     fmt.Println(letters)
 
