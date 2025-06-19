@@ -10,7 +10,7 @@ import (
 func Hello(name string) (string, error) {
     // If no name was given, return an error with a message.
     if name == "" {
-        return "", errors.New("name not found 🧐")
+        return name, errors.New("name not found 🧐")
     }
 
 
