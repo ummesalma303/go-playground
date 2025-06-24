@@ -8,11 +8,12 @@ func main() {
     m = make(map[string]int)
     m["apple"] = 5
     i := m["apple"]
+    j := m["root"]
     n := len(m)
     delete(m, "apple")
 
-//j, ok := m["apple"]
-    fmt.Println(i,n)
+     ok := m["apple"]
+    fmt.Println(i, n, j, ok)
 
 
 
