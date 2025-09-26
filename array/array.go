@@ -10,7 +10,7 @@ func main() {
     a[2] = 1
     i := a[2]
     fmt.Println(a, i)
-    // string array
+    // string 
     b := [5]string{"Penn", "Teller"}
     fmt.Println(b)
     // slice
